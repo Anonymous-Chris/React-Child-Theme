@@ -1,7 +1,7 @@
 /*
- Theme Name:   Twenty Twenty Child
- Description:  Twenty Twenty Child Theme
- Author:       Zac Gordon
+ Theme Name:   Twenty Twenty chris
+ Description:  Twenty Twenty chris Theme
+ Author:       Chris 
  Author URI:   https://javascriptforwp.com/
  Template:     twentytwenty
  Version:      0.9.0
@@ -9,3 +9,7 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:  twentytwentychild
 */
+
+div {
+    color: green;
+}

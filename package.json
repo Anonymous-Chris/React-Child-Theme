@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "devDependencies": {
-    "@wordpress/scripts": "^5.1.0"
+    "@wordpress/scripts": "^14.0.0"
   },
   "scripts": {
     "build": "wp-scripts build",
+    "build-custom":"wp-scripts build /src/index2.js /src/index.js",
     "check-engines": "wp-scripts check-engines",
     "check-licenses": "wp-scripts check-licenses",
     "lint:css": "wp-scripts lint-style",

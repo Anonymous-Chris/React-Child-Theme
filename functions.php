@@ -12,9 +12,17 @@ function my_theme_enqueue_styles() {
         time() //wp_get_theme()->get('Version')
     );
 
-	wp_enqueue_script(
+    wp_enqueue_script(
         'my-theme-frontend',
         get_stylesheet_directory_uri() . '/build/index.js',
+        ['wp-element', 'wp-components'],
+        time(), //For production use wp_get_theme()->get('Version')        
+        true
+      );
+
+	wp_enqueue_script(
+        'my-theme-frontend1',
+        get_stylesheet_directory_uri() . '/build/index2.js',
         ['wp-element', 'wp-components'],
         time(), //For production use wp_get_theme()->get('Version')        
         true
@@ -22,14 +30,3 @@ function my_theme_enqueue_styles() {
   
 }
 
-// Add Votes to Custom Meta Fields
-add_action( 'graphql_register_types', function() {
-    register_graphql_field( 'Post', 'votes', [
-       'type' => 'Number',
-       'description' => __( 'The number of votes', 'wp-graphql' ),
-       'resolve' => function( $post ) {
-         $votes = get_post_meta( $post->ID, 'votes', true );
-         return ! empty( $votes ) ? $votes : 0;
-       }
-    ] );
-  } );

@@ -12,7 +12,7 @@ get_header();
 			<div class="entry-content">				
 
 				<div id="react-app"></div><!-- #react-app -->
-
+		
 			</div><!-- .entry-content -->
 		</div><!-- .post-inner -->
 	</article><!-- .post -->
@@ -20,3 +20,8 @@ get_header();
 
 <?php get_template_part( 'template-parts/footer-menus-widgets' ); ?>
 <?php get_footer(); ?>
+
+<?php
+/**
+ * Template Name: React Template
+ */

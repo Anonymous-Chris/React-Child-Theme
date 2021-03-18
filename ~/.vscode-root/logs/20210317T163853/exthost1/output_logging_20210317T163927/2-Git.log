@@ -1,0 +1,189 @@
+Looking for git in: git
+Using git 2.25.1 from git
+> git rev-parse --git-dir
+Open repository: /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/index.js
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/src/index.js
+> git cat-file -s eb96d9266caa65430088a4d40002166ded29097e
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :.gitignore
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/.gitignore
+> git cat-file -s 672b575434b1dd7fa68b019317d3493ddeb07e53
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/.gitignore
+> git cat-file -s 672b575434b1dd7fa68b019317d3493ddeb07e53
+> git show --textconv :.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :page-react.php
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/page-react.php
+> git cat-file -s b0b25f2733903e7b4eb7d657329055b9261da816
+> git show --textconv :src/index.js
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/src/index.js
+> git cat-file -s eb96d9266caa65430088a4d40002166ded29097e
+> git show --textconv :src/index2.js
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/src/index2.js
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git show --textconv :page-react.php
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/page-react.php
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git cat-file -s b0b25f2733903e7b4eb7d657329055b9261da816
+Warning: Failed to watch ref '/opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :src/index2.js
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/src/index2.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :page-react.php
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/page-react.php
+> git cat-file -s b0b25f2733903e7b4eb7d657329055b9261da816
+> git show --textconv :src/index2.js
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/src/index2.js
+> git check-ignore -v -z --stdin
+> git show --textconv :page-react.php
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/page-react.php
+> git cat-file -s b0b25f2733903e7b4eb7d657329055b9261da816
+> git show --textconv :src/index2.js
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/src/index2.js
+> git show --textconv :functions.php
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/functions.php
+> git cat-file -s 1a498c57389e38048253e7ed8bc2af862e7d1f3d
+> git show --textconv :page-react.php
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/page-react.php
+> git cat-file -s b0b25f2733903e7b4eb7d657329055b9261da816
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :src/index2.js
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/src/index2.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git show --textconv :build/index.asset.php
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/build/index.asset.php
+> git cat-file -s 18ba29a02a059155ad9df179c2169e857edc732b
+> git show --textconv :build/index.js
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/build/index.js
+> git cat-file -s 32b956f803574af5dbed48b2d15b9c07cced3cf2
+> git show --textconv :src/index2.js
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/src/index2.js
+> git show --textconv :page-react.php
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/page-react.php
+> git cat-file -s b0b25f2733903e7b4eb7d657329055b9261da816
+> git show --textconv :src/index.js
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/src/index.js
+> git cat-file -s eb96d9266caa65430088a4d40002166ded29097e
+> git show --textconv :src/index2.js
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/src/index2.js
+> git show --textconv :webpack.config.js
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/webpack.config.js
+> git cat-file -s ad389b62ea496e9000cb375ba48e5f48130b0e9b
+> git show --textconv :style.css
+> git ls-files --stage -- /opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/style.css
+> git cat-file -s 8f68a81a16f682600cbd9a795ef8efbaa8494f0f
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/opt/lampp/htdocs/wordpress/wp-content/themes/twentytwenty-react/.git/refs/remotes/origin/master', is most likely packed.
+> git config --get commit.template

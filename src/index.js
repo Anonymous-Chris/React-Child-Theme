@@ -1,23 +1,16 @@
 const { render } = wp.element;
-import ApolloClient from "apollo-boost";
-import { ApolloProvider } from "@apollo/react-hooks";
 
-// import Votes from "./components/votes";
-import Posts from "./components/posts";
-
-const client = new ApolloClient({
-  uri: "http://react-dev.local/graphql"
-});
+import Test from './components/test/index';
+import Test1 from './components/test1/index';
 
 const App = () => {
-  return (
-    <ApolloProvider client={client}>
-      <div>
-        <p>My First Apollo Theme!</p>
-        <Posts />
-        {/* <Votes /> */}
-      </div>
-    </ApolloProvider>
-  );
+    return ( 
+    <div>
+        <h1>hello i am index</h1>
+        <Test/>
+        <h3>----------------</h3>
+        <Test1/>
+    </div>
+    );
 };
-render(<App />, document.getElementById(`react-app`));
+render( <App/> , document.getElementById(`react-app`));
